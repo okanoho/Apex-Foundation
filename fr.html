@@ -2,9 +2,8 @@
 <html lang="fr" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Apex Foundation - Propulser l'avenir électrique du Canada</title>
+  <title>Apex Foundation - Commerce mondial de métaux précieux et affinage</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -35,8 +34,8 @@
           <div class="flex space-x-6">
             <a href="#hero" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">Accueil</a>
             <a href="#services" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">Services</a>
-            <a href="#why-choose-us" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">Pourquoi Nous</a>
-            <a href="#leadership" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">Gouvernance et Supervision Technique</a>
+            <a href="#why-choose-us" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">Pourquoi nous</a>
+            <a href="#leadership" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">Leadership</a>
             <a href="#process" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">Processus</a>
             <a href="#contact" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">Contact</a>
           </div>
@@ -63,8 +62,8 @@
       <div class="px-2 pt-2 pb-3 space-y-1">
         <a href="#hero" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">Accueil</a>
         <a href="#services" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">Services</a>
-        <a href="#why-choose-us" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">Pourquoi Nous</a>
-        <a href="#leadership" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">Gouvernance et Supervision Technique et Ingénierie</a>
+        <a href="#why-choose-us" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">Pourquoi nous</a>
+        <a href="#leadership" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">Leadership</a>
         <a href="#process" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">Processus</a>
         <a href="#contact" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 font-medium">Contact</a>
         
@@ -78,23 +77,29 @@
   </nav>
 
   <!-- Hero Section -->
-  <section id="hero" class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-16">
-    <div class="absolute inset-0 bg-cover bg-center opacity-20" style="background-image: url('https://images.pexels.com/photos/110844/pexels-photo-110844.jpeg?auto=compress&cs=tinysrgb&w=1920');"></div>
+  <section id="hero" class="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+    <img src="goldmine.png" alt="Contexte" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/40"></div>
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-        Propulser l'avenir<br/>
-        <span class="text-color-amber">Électrique du Canada</span>
+        Sécurisez votre patrimoine<br/>
+        <span class="text-color-amber">avec les métaux précieux</span>
       </h1>
-      <p class="text-xl sm:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
-        Solutions d'infrastructure VÉ de bout en bout, de la chaîne d'approvisionnement à l'activation du site.
+      <p class="text-xl sm:text-2xl text-slate-200 mb-8 max-w-3xl mx-auto">
+        Leader mondial du négoce de lingots, du raffinage et des solutions d'investissement. Or, Argent, Platine & Palladium.
       </p>
       <a href="#contact" class="inline-block bg-color-amber hover:bg-brown-dark text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-        Obtenir un devis
+        Commencer dès aujourd'hui
       </a>
+    </div>
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+      </svg>
     </div>
   </section>
 
-  <!-- Combined Video Background for Services & Why Choose Us Sections -->
+  <!-- Combined Video Background for Services & Why Choose Us -->
   <div class="relative">
     <div class="absolute inset-0 z-0 overflow-hidden">
       <video autoplay muted loop playsinline class="w-full h-full object-cover" style="object-position: center;">
@@ -110,7 +115,7 @@
           <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Nos Services</h2>
           <div class="w-24 h-1 bg-color-amber mx-auto mb-4"></div>
           <p class="text-xl text-slate-200 max-w-2xl mx-auto">
-            Solutions d'infrastructure VÉ complètes adaptées au marché canadien
+            Des solutions complètes en métaux précieux pour particuliers et institutions
           </p>
         </div>
 
@@ -119,12 +124,12 @@
           <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 border-color-amber">
             <div class="w-16 h-16 bg-color-amber rounded-lg flex items-center justify-center mb-6">
               <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-slate-900 mb-4">Écosystèmes de recharge interactifs au réseau</h3>
+            <h3 class="text-2xl font-bold text-slate-900 mb-4">Négoce de Lingots</h3>
             <p class="text-slate-600 leading-relaxed">
-              Chargeurs AC et DC haute performance pour domiciles, lieux de travail et flottes publiques.
+              Achetez et vendez des lingots et pièces d'or, d'argent, de platine et de palladium avec des spreads compétitifs et des prix en temps réel.
             </p>
           </div>
 
@@ -135,9 +140,9 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-slate-900 mb-4">Intégration d'infrastructure et de systèmes</h3>
+            <h3 class="text-2xl font-bold text-slate-900 mb-4">Raffinage & Analyse</h3>
             <p class="text-slate-600 leading-relaxed">
-              Installation clé en main, génie civil et opérations et maintenance (O&M) du site.
+              Installations de raffinage de pointe avec analyse XRF, essai par coupelle et paiements le jour même pour l'or de récupération, les barres dorées et les résidus industriels.
             </p>
           </div>
 
@@ -145,12 +150,12 @@
           <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 border-color-amber">
             <div class="w-16 h-16 bg-color-amber rounded-lg flex items-center justify-center mb-6">
               <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-slate-900 mb-4">Solutions V2G bidirectionnelles et stockage</h3>
+            <h3 class="text-2xl font-bold text-slate-900 mb-4">Coffrage & Logistique</h3>
             <p class="text-slate-600 leading-relaxed">
-              Gestion de la chaîne d'approvisionnement et installation de systèmes de stockage d'énergie (ESS).
+              Stockage entièrement assuré dans des chambres fortes sécurisées en Amérique du Nord, plus expédition et livraison assurées dans le monde entier.
             </p>
           </div>
         </div>
@@ -161,50 +166,47 @@
     <section id="why-choose-us" class="relative z-10 py-20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
-          <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Pourquoi Choisir Apex Foundation</h2>
+          <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">Pourquoi Apex Foundation</h2>
           <div class="w-24 h-1 bg-color-amber mx-auto mb-4"></div>
           <p class="text-xl text-slate-200 max-w-2xl mx-auto">
-            Conçu pour les conditions canadiennes, soutenu par l'expertise canadienne
+            Partenaire de confiance pour les investisseurs en métaux précieux du monde entier
           </p>
         </div>
 
         <div class="grid md:grid-cols-3 gap-12">
-          <!-- Feature 1 -->
-          <div class="text-center">
-            <div class="w-20 h-20 bg-gradient-to-br from-color-amber to-brown-dark rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
-              <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-            </div>
-            <h3 class="text-2xl font-bold text-white mb-3">Experts en Financement PIZE</h3>
-            <p class="text-slate-200 leading-relaxed">
-              Nous aidons à naviguer les subventions fédérales et provinciales pour maximiser votre ROI.
-            </p>
-          </div>
-
-          <!-- Feature 2 -->
           <div class="text-center">
             <div class="w-20 h-20 bg-gradient-to-br from-color-amber to-brown-dark rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
               <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-white mb-3">Certifié Sceau Rouge / 309A</h3>
+            <h3 class="text-2xl font-bold text-white mb-3">Agréé LBMA</h3>
             <p class="text-slate-200 leading-relaxed">
-              Installation entièrement licenciée répondant aux normes strictes du Code canadien de l'électricité (CSA).
+              Membre à part entière de la London Bullion Market Association – négociant uniquement des lingots de bonne livraison.
             </p>
           </div>
 
-          <!-- Feature 3 -->
+          <div class="text-center">
+            <div class="w-20 h-20 bg-gradient-to-br from-color-amber to-brown-dark rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+              <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-white mb-3">Tarification en temps réel</h3>
+            <p class="text-slate-200 leading-relaxed">
+              Cours spot en direct de COMEX, LME et du Shanghai Gold Exchange – transparents et équitables.
+            </p>
+          </div>
+
           <div class="text-center">
             <div class="w-20 h-20 bg-gradient-to-br from-color-amber to-brown-dark rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
               <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-white mb-3">Infrastructure résiliente au climat</h3>
+            <h3 class="text-2xl font-bold text-white mb-3">Custodie sécurisée</h3>
             <p class="text-slate-200 leading-relaxed">
-              Matériel testé pour les hivers canadiens rigoureux (fonctionnement à -40°C).
+              Coffres assurés par Lloyd's of London, accès multi-signature et audits annuels.
             </p>
           </div>
         </div>
@@ -216,10 +218,10 @@
   <section id="leadership" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
-        <h2 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">Gouvernance et Supervision Technique et Ingénierie</h2>
+        <h2 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">Experts du secteur</h2>
         <div class="w-24 h-1 bg-color-amber mx-auto mb-4"></div>
         <p class="text-xl text-slate-600 max-w-2xl mx-auto">
-          Dirigé par des vétérans de l'industrie avec une expertise éprouvée en infrastructure VÉ
+          Des décennies d'expérience dans les matières premières, la finance et la logistique
         </p>
       </div>
 
@@ -236,9 +238,9 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h3 class="text-xl font-bold text-slate-900 mb-2">Équipe de Maîtres Électriciens</h3>
+                  <h3 class="text-xl font-bold text-slate-900 mb-2">Anciens membres du conseil d'administration de la LBMA</h3>
                   <p class="text-slate-600 leading-relaxed">
-                    Notre directeur technique, maître électricien en Ontario, dirige une équipe hautement qualifiée d'électriciens certifiés Sceau rouge / 309A, garantissant que chaque installation respecte les normes de sécurité et de qualité les plus élevées.
+                    Notre équipe de direction comprend d'anciens administrateurs de la LBMA et des négociants en métaux précieux chevronnés avec plus de 30 ans d'expérience sur les marchés.
                   </p>
                 </div>
               </div>
@@ -247,14 +249,14 @@
                 <div class="flex-shrink-0">
                   <div class="w-12 h-12 bg-gradient-to-br from-color-amber to-brown-dark rounded-lg flex items-center justify-center">
                     <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                     </svg>
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h3 class="text-xl font-bold text-slate-900 mb-2">Expertise en Recharge Tesla</h3>
+                  <h3 class="text-xl font-bold text-slate-900 mb-2">Réseau mondial d'affinage</h3>
                   <p class="text-slate-600 leading-relaxed">
-                    Avec plusieurs années d'expérience spécialisée dans l'installation de points de recharge pour les utilisateurs Tesla, nous comprenons les exigences uniques des solutions de recharge VÉ premium.
+                    Partenariat avec des affineurs agréés LBMA en Suisse, à Dubaï et à Singapour – garantissant les plus hauts standards de pureté.
                   </p>
                 </div>
               </div>
@@ -263,14 +265,14 @@
                 <div class="flex-shrink-0">
                   <div class="w-12 h-12 bg-gradient-to-br from-color-amber to-brown-dark rounded-lg flex items-center justify-center">
                     <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                     </svg>
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h3 class="text-xl font-bold text-slate-900 mb-2">Installations de Niveau Commercial</h3>
+                  <h3 class="text-xl font-bold text-slate-900 mb-2">Entièrement conforme</h3>
                   <p class="text-slate-600 leading-relaxed">
-                    Expérience approfondie avec les installations de chargeurs de niveau commercial dans diverses applications, de la recharge en milieu de travail aux stations de recharge rapide publiques.
+                    MSB enregistré auprès de FINTRAC, certifié anti-blanchiment et audité annuellement par les Big Four.
                   </p>
                 </div>
               </div>
@@ -283,30 +285,30 @@
                   <div class="text-center space-y-6">
                     <div class="w-24 h-24 bg-gradient-to-br from-color-amber to-brown-dark rounded-full flex items-center justify-center mx-auto shadow-lg">
                       <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                       </svg>
                     </div>
                     <div>
-                      <h3 class="text-2xl font-bold text-white mb-2">Excellence Certifiée</h3>
-                      <p class="text-slate-300 text-sm mb-4">Maîtres Électriciens Certifiés Sceau Rouge / 309A</p>
+                      <h3 class="text-2xl font-bold text-white mb-2">Normes industrielles</h3>
+                      <p class="text-slate-300 text-sm mb-4">Certifié LBMA Good Delivery & LPPM</p>
                       <div class="flex flex-col space-y-2 text-left">
                         <div class="flex items-center">
                           <svg class="w-5 h-5 text-color-amber mr-2" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                           </svg>
-                          <span class="text-white text-sm">Conforme aux Normes CSA</span>
+                          <span class="text-white text-sm">Lingots d'or 999,9‰</span>
                         </div>
                         <div class="flex items-center">
                           <svg class="w-5 h-5 text-color-amber mr-2" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                           </svg>
-                          <span class="text-white text-sm">Installations Approuvées par ESA</span>
+                          <span class="text-white text-sm">Processus de raffinage audité</span>
                         </div>
                         <div class="flex items-center">
                           <svg class="w-5 h-5 text-color-amber mr-2" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                           </svg>
-                          <span class="text-white text-sm">Garantie de Pointe dans l'Industrie</span>
+                          <span class="text-white text-sm">Stockage alloué</span>
                         </div>
                       </div>
                     </div>
@@ -319,10 +321,10 @@
 
         <div class="mt-12 text-center">
           <p class="text-lg text-slate-700 mb-6">
-            <span class="font-bold text-color-amber">Faites confiance aux experts.</span> Notre équipe de direction apporte des décennies d'expérience combinée en génie électrique et en déploiement d'infrastructure VÉ.
+            <span class="font-bold text-color-amber">Faites confiance aux experts.</span> Notre équipe réalise plus de 2 milliards de dollars de transactions annuelles en métaux précieux.
           </p>
           <a href="#contact" class="inline-block bg-color-amber hover:bg-brown-dark text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-            Parler avec Notre Équipe
+            Parlez à notre équipe
           </a>
         </div>
       </div>
@@ -333,10 +335,10 @@
   <section id="process" class="py-20 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
-        <h2 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">Notre Processus</h2>
+        <h2 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">Notre processus</h2>
         <div class="w-24 h-1 bg-color-amber mx-auto mb-4"></div>
         <p class="text-xl text-slate-600 max-w-2xl mx-auto">
-          De la consultation initiale à l'activation finale, nous gérons chaque étape
+          De la demande à la livraison – transparent, sécurisé, fluide
         </p>
       </div>
 
@@ -347,39 +349,34 @@
             <div class="absolute top-12 left-0 right-0 h-1 bg-slate-200 z-0"></div>
             <div class="absolute top-12 left-0 h-1 bg-color-amber z-0 transition-all duration-1000" style="width: 100%;"></div>
 
-            <!-- Step 1 -->
             <div class="relative z-10 flex flex-col items-center text-center w-1/5">
               <div class="w-24 h-24 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4 shadow-lg">1</div>
               <h4 class="font-bold text-lg text-slate-900 mb-2">Consultation</h4>
-              <p class="text-sm text-slate-600">Réunion initiale pour comprendre vos besoins</p>
+              <p class="text-sm text-slate-600">Discussion sur le type de métal, la quantité et le délai de livraison</p>
             </div>
 
-            <!-- Step 2 -->
             <div class="relative z-10 flex flex-col items-center text-center w-1/5">
               <div class="w-24 h-24 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4 shadow-lg">2</div>
-              <h4 class="font-bold text-lg text-slate-900 mb-2">Calcul de charge piloté par l'IA</h4>
-              <p class="text-sm text-slate-600">Évaluation détaillée de votre emplacement</p>
+              <h4 class="font-bold text-lg text-slate-900 mb-2">Blocage du prix</h4>
+              <p class="text-sm text-slate-600">Devis en temps réel avec garantie de prix de 15 minutes</p>
             </div>
 
-            <!-- Step 3 -->
             <div class="relative z-10 flex flex-col items-center text-center w-1/5">
               <div class="w-24 h-24 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4 shadow-lg">3</div>
-              <h4 class="font-bold text-lg text-slate-900 mb-2">Installation</h4>
-              <p class="text-sm text-slate-600">Configuration professionnelle de l'équipement</p>
+              <h4 class="font-bold text-lg text-slate-900 mb-2">Paiement sécurisé</h4>
+              <p class="text-sm text-slate-600">Virement bancaire, crypto ou dépôt de métal assuré</p>
             </div>
 
-            <!-- Step 4 -->
             <div class="relative z-10 flex flex-col items-center text-center w-1/5">
               <div class="w-24 h-24 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4 shadow-lg">4</div>
-              <h4 class="font-bold text-lg text-slate-900 mb-2">Inspection ESA</h4>
-              <p class="text-sm text-slate-600">Vérification de la conformité au code</p>
+              <h4 class="font-bold text-lg text-slate-900 mb-2">Raffinage / Analyse</h4>
+              <p class="text-sm text-slate-600">Vérification tierce et estampillage LBMA</p>
             </div>
 
-            <!-- Step 5 -->
             <div class="relative z-10 flex flex-col items-center text-center w-1/5">
               <div class="w-24 h-24 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4 shadow-lg">5</div>
-              <h4 class="font-bold text-lg text-slate-900 mb-2">Activation</h4>
-              <p class="text-sm text-slate-600">Votre station de recharge devient opérationnelle</p>
+              <h4 class="font-bold text-lg text-slate-900 mb-2">Livraison / Coffrage</h4>
+              <p class="text-sm text-slate-600">Expédition assurée ou stockage alloué</p>
             </div>
           </div>
         </div>
@@ -388,42 +385,23 @@
         <div class="md:hidden space-y-8">
           <div class="flex items-start">
             <div class="w-16 h-16 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0 shadow-lg">1</div>
-            <div>
-              <h4 class="font-bold text-lg text-slate-900 mb-1">Consultation</h4>
-              <p class="text-sm text-slate-600">Réunion initiale pour comprendre vos besoins</p>
-            </div>
+            <div><h4 class="font-bold text-lg text-slate-900 mb-1">Consultation</h4><p class="text-sm text-slate-600">Discussion sur le type de métal, la quantité et le délai de livraison</p></div>
           </div>
-
           <div class="flex items-start">
             <div class="w-16 h-16 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0 shadow-lg">2</div>
-            <div>
-              <h4 class="font-bold text-lg text-slate-900 mb-1">Calcul de charge piloté par l'IA</h4>
-              <p class="text-sm text-slate-600">Évaluation détaillée de votre emplacement</p>
-            </div>
+            <div><h4 class="font-bold text-lg text-slate-900 mb-1">Blocage du prix</h4><p class="text-sm text-slate-600">Devis en temps réel avec garantie de prix de 15 minutes</p></div>
           </div>
-
           <div class="flex items-start">
             <div class="w-16 h-16 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0 shadow-lg">3</div>
-            <div>
-              <h4 class="font-bold text-lg text-slate-900 mb-1">Installation</h4>
-              <p class="text-sm text-slate-600">Configuration professionnelle de l'équipement</p>
-            </div>
+            <div><h4 class="font-bold text-lg text-slate-900 mb-1">Paiement sécurisé</h4><p class="text-sm text-slate-600">Virement bancaire, crypto ou dépôt de métal assuré</p></div>
           </div>
-
           <div class="flex items-start">
             <div class="w-16 h-16 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0 shadow-lg">4</div>
-            <div>
-              <h4 class="font-bold text-lg text-slate-900 mb-1">Inspection ESA</h4>
-              <p class="text-sm text-slate-600">Vérification de la conformité au code</p>
-            </div>
+            <div><h4 class="font-bold text-lg text-slate-900 mb-1">Raffinage / Analyse</h4><p class="text-sm text-slate-600">Vérification tierce et estampillage LBMA</p></div>
           </div>
-
           <div class="flex items-start">
             <div class="w-16 h-16 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0 shadow-lg">5</div>
-            <div>
-              <h4 class="font-bold text-lg text-slate-900 mb-1">Activation</h4>
-              <p class="text-sm text-slate-600">Votre station de recharge devient opérationnelle</p>
-            </div>
+            <div><h4 class="font-bold text-lg text-slate-900 mb-1">Livraison / Coffrage</h4><p class="text-sm text-slate-600">Expédition assurée ou stockage alloué</p></div>
           </div>
         </div>
       </div>
@@ -434,61 +412,71 @@
   <section id="contact" class="py-20 bg-slate-50">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
-        <h2 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">Commencez Aujourd'hui</h2>
+        <h2 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">Commencez dès aujourd'hui</h2>
         <div class="w-24 h-1 bg-color-amber mx-auto mb-4"></div>
         <p class="text-xl text-slate-600">
-          Prêt à alimenter votre avenir électrique? Contactez-nous pour une consultation gratuite.
+          Prêt à acheter, vendre ou stocker des métaux précieux ? Contactez notre bureau de négociation.
         </p>
       </div>
 
-  <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-  <form action="https://formsubmit.co/info@apexfoundation.ca" method="POST" enctype="multipart/form-data">
-    <input type="hidden" name="_subject" value="New Contact (French) - Apex Foundation">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-    
-    <input type="text" name="_honey" style="display:none">
-    
-    <input type="hidden" name="_next" value="https://apexfoundation.ca/thankyou-fr.html">
-    
-    <div class="grid md:grid-cols-2 gap-6 mb-6">
-      <div>
-        <label for="name" class="block text-sm font-semibold text-slate-700 mb-2">Nom Complet *</label>
-        <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="Jean Dupont" />
+      <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+        <form action="https://formsubmit.co/info@apexfoundation.ca" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="Nouvelle demande - Apex Foundation (FR)">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_next" value="https://apexfoundation.ca/thankyou.html">
+
+          <div class="grid md:grid-cols-2 gap-6 mb-6">
+            <div>
+              <label for="name" class="block text-sm font-semibold text-slate-700 mb-2">Nom complet *</label>
+              <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="Jean Dupont" />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-semibold text-slate-700 mb-2">Adresse e-mail *</label>
+              <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="jean@exemple.com" />
+            </div>
+          </div>
+
+          <div class="mb-6">
+            <label for="company" class="block text-sm font-semibold text-slate-700 mb-2">Société (facultatif)</label>
+            <input type="text" id="company" name="company" class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="Nom de votre société" />
+          </div>
+
+          <div class="mb-6">
+            <label for="metal-type" class="block text-sm font-semibold text-slate-700 mb-2">Métal d'intérêt *</label>
+            <select id="metal-type" name="metal-type" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all bg-white">
+              <option value="">Sélectionnez un métal</option>
+              <option value="gold">Or (Au)</option>
+              <option value="silver">Argent (Ag)</option>
+              <option value="platinum">Platine (Pt)</option>
+              <option value="palladium">Palladium (Pd)</option>
+              <option value="mixed">Mixte / Autre</option>
+            </select>
+          </div>
+
+          <div class="mb-6">
+            <label for="inquiry-type" class="block text-sm font-semibold text-slate-700 mb-2">Type de demande *</label>
+            <select id="inquiry-type" name="inquiry-type" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all bg-white">
+              <option value="">Sélectionnez le type</option>
+              <option value="buy">Je souhaite acheter</option>
+              <option value="sell">Je souhaite vendre</option>
+              <option value="refine">Services d'affinage</option>
+              <option value="storage">Stockage / coffrage</option>
+              <option value="other">Autre</option>
+            </select>
+          </div>
+
+          <div class="mb-8">
+            <label for="message" class="block text-sm font-semibold text-slate-700 mb-2">Message / Quantité (poids approximatif)</label>
+            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all resize-none" placeholder="ex. 'Intéressé par 10 onces de lingots d'or, merci de fournir les prix et les options de livraison.'"></textarea>
+          </div>
+
+          <button type="submit" class="w-full bg-color-amber hover:bg-brown-dark text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+            Envoyer la demande
+          </button>
+        </form>
       </div>
-
-      <div>
-        <label for="email" class="block text-sm font-semibold text-slate-700 mb-2">Adresse Courriel *</label>
-        <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="jean@exemple.com" />
-      </div>
-    </div>
-
-    <div class="mb-6">
-      <label for="company" class="block text-sm font-semibold text-slate-700 mb-2">Entreprise (Optionnel)</label>
-      <input type="text" id="company" name="company" class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="Nom de votre entreprise" />
-    </div>
-
-    <div class="mb-6">
-      <label for="project-type" class="block text-sm font-semibold text-slate-700 mb-2">Type de Projet *</label>
-      <select id="project-type" name="project-type" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all bg-white">
-        <option value="">Sélectionnez un type de projet</option>
-        <option value="home">Résidentiel</option>
-        <option value="business">Commercial</option>
-        <option value="supply-chain">Chaîne d'approvisionnement</option>
-        <option value="energy-storage">Stockage d'énergie</option>
-      </select>
-    </div>
-
-    <div class="mb-8">
-      <label for="message" class="block text-sm font-semibold text-slate-700 mb-2">Message (Optionnel)</label>
-      <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all resize-none" placeholder="Parlez-nous de votre projet..."></textarea>
-    </div>
-
-    <button type="submit" class="w-full bg-color-amber hover:bg-brown-dark text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-      Envoyer la Demande
-    </button>
-  </form>
-</div>
     </div>
   </section>
 
@@ -500,64 +488,45 @@
           <img src="public/image.png" alt="Apex Foundation" class="h-10 w-auto" />
         </div>
         <div class="text-slate-400 text-sm">
-          © 2026 Apex Foundation. Tous droits réservés.
+          © 2026 Apex Foundation. Tous droits réservés. | Négociation et raffinage de métaux précieux
         </div>
       </div>
     </div>
   </footer>
 
   <script>
-  // Mobile Menu Script (existing code)
-  const menuBtn = document.getElementById('mobile-menu-button');
-  const mobileMenu = document.getElementById('mobile-menu');
-  const navLinks = document.querySelectorAll('.mobile-nav-link');
-
-  menuBtn.addEventListener('click', () => {
-    const isHidden = mobileMenu.classList.toggle('hidden');
-    
-    if (!isHidden) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
-  });
-
-  navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      mobileMenu.classList.add('hidden');
-      document.body.style.overflow = '';
+    const menuBtn = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navLinks = document.querySelectorAll('.mobile-nav-link');
+    menuBtn.addEventListener('click', () => {
+      const isHidden = mobileMenu.classList.toggle('hidden');
+      document.body.style.overflow = isHidden ? '' : 'hidden';
     });
-  });
-
-  // ADD THESE NEW FUNCTIONS (missing from fr.html and cn.html):
-  
-  // Smooth scrolling for anchor links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      if (this.getAttribute('href') === '#') return;
-      
-      e.preventDefault();
-      const targetId = this.getAttribute('href');
-      const targetElement = document.querySelector(targetId);
-      
-      if (targetElement) {
-        window.scrollTo({
-          top: targetElement.offsetTop - 80,
-          behavior: 'smooth'
-        });
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        document.body.style.overflow = '';
+      });
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        if (this.getAttribute('href') === '#') return;
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          window.scrollTo({ top: targetElement.offsetTop - 80, behavior: 'smooth' });
+        }
+      });
+    });
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 100) {
+        navbar.classList.add('shadow-lg', 'bg-white/95', 'backdrop-blur-sm');
+      } else {
+        navbar.classList.remove('shadow-lg', 'bg-white/95', 'backdrop-blur-sm');
       }
     });
-  });
-
-  // Navbar scroll effect
-  window.addEventListener('scroll', () => {
-    const navbar = document.getElementById('navbar');
-    if (window.scrollY > 100) {
-      navbar.classList.add('shadow-lg', 'bg-white/95', 'backdrop-blur-sm');
-    } else {
-      navbar.classList.remove('shadow-lg', 'bg-white/95', 'backdrop-blur-sm');
-    }
-  });
-</script>
+  </script>
 </body>
 </html>
