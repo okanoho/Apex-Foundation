@@ -1,2 +1,2 @@
 # Apex Foundation
-Apex Foundation - Electric Vehicle Charging Solutions
+Apex Foundation - Global Precious Metal Trade & Refining
