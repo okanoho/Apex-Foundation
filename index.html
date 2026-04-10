@@ -77,21 +77,33 @@
   </nav>
 
   <!-- Hero Section -->
-  <section id="hero" class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-16">
-    <div class="absolute inset-0 bg-cover bg-center opacity-20" style="background-image: url('https://images.pexels.com/photos/164527/gold-nugget-golden-gold-nugget-164527.jpeg?auto=compress&cs=tinysrgb&w=1920');"></div>
-    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-        Secure Your Wealth<br/>
-        <span class="text-color-amber">With Precious Metals</span>
-      </h1>
-      <p class="text-xl sm:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
-        Global leader in bullion trading, refining, and investment solutions. Gold, Silver, Platinum & Palladium.
-      </p>
-      <a href="#contact" class="inline-block bg-color-amber hover:bg-brown-dark text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-        Start Trading Today
-      </a>
-    </div>
-  </section>
+<section id="hero" class="relative min-h-screen flex items-center justify-center pt-16">
+  <!-- Your uploaded image as background -->
+  <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('public/gold-mine-man.png');"></div>
+  
+  <!-- Optional: dark overlay for text readability -->
+  <div class="absolute inset-0 bg-black/40"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+      Secure Your Wealth<br/>
+      <span class="text-color-amber">With Precious Metals</span>
+    </h1>
+    <p class="text-xl sm:text-2xl text-slate-200 mb-8 max-w-3xl mx-auto">
+      Global leader in bullion trading, refining, and investment solutions. Gold, Silver, Platinum & Palladium.
+    </p>
+    <a href="#contact" class="inline-block bg-color-amber hover:bg-brown-dark text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+      Start Trading Today
+    </a>
+  </div>
+
+  <!-- Scroll indicator (optional) -->
+  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+    </svg>
+  </div>
+</section>
 
   <!-- Combined Video Background for Services & Why Choose Us Sections -->
   <div class="relative">
