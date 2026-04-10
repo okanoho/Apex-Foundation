@@ -2,9 +2,8 @@
 <html lang="zh-CN" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Apex Foundation - 赋能加拿大的电动未来</title>
+  <title>Apex Foundation - 全球贵金属交易与精炼</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -35,10 +34,10 @@
           <div class="flex space-x-6">
             <a href="#hero" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">首页</a>
             <a href="#services" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">服务</a>
-            <a href="#why-choose-us" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">优势</a>
-            <a href="#leadership" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">工程技术监管</a>
+            <a href="#why-choose-us" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">为什么选择我们</a>
+            <a href="#leadership" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">领导团队</a>
             <a href="#process" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">流程</a>
-            <a href="#contact" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">联系我们</a>
+            <a href="#contact" class="nav-link text-slate-700 hover:text-color-amber transition-colors font-medium">联系</a>
           </div>
           <div class="flex items-center space-x-3 border-l border-slate-300 pl-6">
             <a href="index.html" class="text-slate-500 hover:text-color-amber font-medium transition-colors">EN</a>
@@ -63,10 +62,10 @@
       <div class="px-2 pt-2 pb-3 space-y-1">
         <a href="#hero" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">首页</a>
         <a href="#services" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">服务</a>
-        <a href="#why-choose-us" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">优势</a>
-        <a href="#leadership" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">工程技术监管</a>
+        <a href="#why-choose-us" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">为什么选择我们</a>
+        <a href="#leadership" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">领导团队</a>
         <a href="#process" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 border-b border-slate-100 font-medium">流程</a>
-        <a href="#contact" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 font-medium">联系我们</a>
+        <a href="#contact" class="mobile-nav-link block px-3 py-4 text-slate-700 hover:bg-slate-50 font-medium">联系</a>
         
         <div class="flex items-center space-x-4 px-3 py-4 border-t border-slate-100 mt-2">
           <a href="index.html" class="text-slate-600">English</a>
@@ -78,23 +77,29 @@
   </nav>
 
   <!-- Hero Section -->
-  <section id="hero" class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-16">
-    <div class="absolute inset-0 bg-cover bg-center opacity-20" style="background-image: url('https://images.pexels.com/photos/110844/pexels-photo-110844.jpeg?auto=compress&cs=tinysrgb&w=1920');"></div>
+  <section id="hero" class="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+    <img src="goldmine.png" alt="背景" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/40"></div>
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-        赋能加拿大的<br/>
-        <span class="text-color-amber">电动未来</span>
+        守护您的财富<br/>
+        <span class="text-color-amber">与贵金属同行</span>
       </h1>
-      <p class="text-xl sm:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto">
-        端到端的电动汽车基础设施解决方案，从供应链到站点激活。
+      <p class="text-xl sm:text-2xl text-slate-200 mb-8 max-w-3xl mx-auto">
+        全球领先的金条交易、精炼与投资解决方案。黄金、白银、铂金、钯金。
       </p>
       <a href="#contact" class="inline-block bg-color-amber hover:bg-brown-dark text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-        获取报价
+        立即开始交易
       </a>
+    </div>
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+      </svg>
     </div>
   </section>
 
-  <!-- Combined Video Background for Services & Why Choose Us Sections -->
+  <!-- Combined Video Background for Services & Why Choose Us -->
   <div class="relative">
     <div class="absolute inset-0 z-0 overflow-hidden">
       <video autoplay muted loop playsinline class="w-full h-full object-cover" style="object-position: center;">
@@ -110,47 +115,44 @@
           <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">我们的服务</h2>
           <div class="w-24 h-1 bg-color-amber mx-auto mb-4"></div>
           <p class="text-xl text-slate-200 max-w-2xl mx-auto">
-            专为加拿大市场量身定制的全面电动汽车基础设施解决方案
+            为个人和机构提供全面的贵金属解决方案
           </p>
         </div>
 
         <div class="grid md:grid-cols-3 gap-8">
-          <!-- Service Card 1 -->
           <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 border-color-amber">
             <div class="w-16 h-16 bg-color-amber rounded-lg flex items-center justify-center mb-6">
               <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-slate-900 mb-4">电网互动式充电生态系统</h3>
+            <h3 class="text-2xl font-bold text-slate-900 mb-4">金条交易</h3>
             <p class="text-slate-600 leading-relaxed">
-              为家庭、工作场所和公共车队提供高性能 AC 和 DC 充电器。
+              买卖金、银、铂、钯条和硬币，具有竞争力的点差和实时定价。
             </p>
           </div>
 
-          <!-- Service Card 2 -->
           <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 border-color-amber">
             <div class="w-16 h-16 bg-color-amber rounded-lg flex items-center justify-center mb-6">
               <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-slate-900 mb-4">基础设施与系统集成</h3>
+            <h3 class="text-2xl font-bold text-slate-900 mb-4">精炼与检测</h3>
             <p class="text-slate-600 leading-relaxed">
-              全套交钥匙安装承包、土木工程建设以及持续的现场运营与维护 (O&M)。
+              采用XRF分析、火试金法的最先进精炼设施，对废旧黄金、金锭及工业废料提供当日付款。
             </p>
           </div>
 
-          <!-- Service Card 3 -->
           <div class="bg-white/90 backdrop-blur-sm rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 border-color-amber">
             <div class="w-16 h-16 bg-color-amber rounded-lg flex items-center justify-center mb-6">
               <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-slate-900 mb-4">双向V2G与储能技术</h3>
+            <h3 class="text-2xl font-bold text-slate-900 mb-4">金库与物流</h3>
             <p class="text-slate-600 leading-relaxed">
-              设备采购、供应链管理、精密组件贸易及储能系统 (ESS) 安装。
+              北美安全金库的全额保险存储，以及全球保险运输和配送。
             </p>
           </div>
         </div>
@@ -164,47 +166,44 @@
           <h2 class="text-4xl sm:text-5xl font-bold text-white mb-4">为什么选择 Apex Foundation</h2>
           <div class="w-24 h-1 bg-color-amber mx-auto mb-4"></div>
           <p class="text-xl text-slate-200 max-w-2xl mx-auto">
-            为加拿大条件打造，由加拿大专业知识支持
+            全球贵金属投资者信赖的合作伙伴
           </p>
         </div>
 
         <div class="grid md:grid-cols-3 gap-12">
-          <!-- Feature 1 -->
-          <div class="text-center">
-            <div class="w-20 h-20 bg-gradient-to-br from-color-amber to-brown-dark rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
-              <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-            </div>
-            <h3 class="text-2xl font-bold text-white mb-3">ZEVIP 资金专家</h3>
-            <p class="text-slate-200 leading-relaxed">
-              我们帮助您申请联邦 ZEVIP 补助和省级退款，以最大化您的投资回报。
-            </p>
-          </div>
-
-          <!-- Feature 2 -->
           <div class="text-center">
             <div class="w-20 h-20 bg-gradient-to-br from-color-amber to-brown-dark rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
               <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-white mb-3">红印章 (Red Seal) / 309A 认证</h3>
+            <h3 class="text-2xl font-bold text-white mb-3">LBMA 认证</h3>
             <p class="text-slate-200 leading-relaxed">
-              完全获得许可的安装服务，符合严格的加拿大电气规范 (CSA) 标准。
+              伦敦金银市场协会正式会员 – 只交易合格交割金条。
             </p>
           </div>
 
-          <!-- Feature 3 -->
+          <div class="text-center">
+            <div class="w-20 h-20 bg-gradient-to-br from-color-amber to-brown-dark rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+              <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-white mb-3">实时定价</h3>
+            <p class="text-slate-200 leading-relaxed">
+              来自COMEX、LME和上海黄金交易所的实时现货价格 – 透明公平。
+            </p>
+          </div>
+
           <div class="text-center">
             <div class="w-20 h-20 bg-gradient-to-br from-color-amber to-brown-dark rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
               <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
               </svg>
             </div>
-            <h3 class="text-2xl font-bold text-white mb-3">气候适应型基础设施</h3>
+            <h3 class="text-2xl font-bold text-white mb-3">安全托管</h3>
             <p class="text-slate-200 leading-relaxed">
-              硬件经测试可在加拿大严酷的冬季（-40°C）正常运行。
+              伦敦劳合社保险的金库，多重签名访问，年度审计。
             </p>
           </div>
         </div>
@@ -216,10 +215,10 @@
   <section id="leadership" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
-        <h2 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">技术监管与治理</h2>
+        <h2 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">行业专家</h2>
         <div class="w-24 h-1 bg-color-amber mx-auto mb-4"></div>
         <p class="text-xl text-slate-600 max-w-2xl mx-auto">
-          由在电动汽车基础设施领域拥有丰富经验的行业资深人士领导
+          大宗商品、金融和物流领域数十年的经验
         </p>
       </div>
 
@@ -236,9 +235,9 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h3 class="text-xl font-bold text-slate-900 mb-2">专业电工团队</h3>
+                  <h3 class="text-xl font-bold text-slate-900 mb-2">前LBMA董事会成员</h3>
                   <p class="text-slate-600 leading-relaxed">
-                    我们的首席技术官是安大略省的注册高级电工，他领导着一支技术精湛、持有红印章/309A认证的电工团队，确保每一项安装工程都符合最高的安全和质量标准。
+                    我们的领导团队包括前LBMA董事会成员和经验丰富的贵金属交易员，拥有超过30年的市场经验。
                   </p>
                 </div>
               </div>
@@ -247,14 +246,14 @@
                 <div class="flex-shrink-0">
                   <div class="w-12 h-12 bg-gradient-to-br from-color-amber to-brown-dark rounded-lg flex items-center justify-center">
                     <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                     </svg>
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h3 class="text-xl font-bold text-slate-900 mb-2">特斯拉充电专业知识</h3>
+                  <h3 class="text-xl font-bold text-slate-900 mb-2">全球精炼网络</h3>
                   <p class="text-slate-600 leading-relaxed">
-                    拥有多年为特斯拉用户安装充电点的专业经验，我们了解高级电动汽车充电解决方案的独特要求。
+                    与瑞士、迪拜和新加坡的LBMA认可精炼商合作 – 确保最高纯度标准。
                   </p>
                 </div>
               </div>
@@ -263,14 +262,14 @@
                 <div class="flex-shrink-0">
                   <div class="w-12 h-12 bg-gradient-to-br from-color-amber to-brown-dark rounded-lg flex items-center justify-center">
                     <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                     </svg>
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h3 class="text-xl font-bold text-slate-900 mb-2">商业级安装</h3>
+                  <h3 class="text-xl font-bold text-slate-900 mb-2">完全合规</h3>
                   <p class="text-slate-600 leading-relaxed">
-                    在各种应用中拥有丰富的商业级充电器安装经验，从工作场所充电到公共快速充电站。
+                    在FINTRAC注册的MSB，反洗钱认证，并由四大会计师事务所每年审计。
                   </p>
                 </div>
               </div>
@@ -283,30 +282,30 @@
                   <div class="text-center space-y-6">
                     <div class="w-24 h-24 bg-gradient-to-br from-color-amber to-brown-dark rounded-full flex items-center justify-center mx-auto shadow-lg">
                       <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                       </svg>
                     </div>
                     <div>
-                      <h3 class="text-2xl font-bold text-white mb-2">认证卓越</h3>
-                      <p class="text-slate-300 text-sm mb-4">红印章/309A认证专业电工</p>
+                      <h3 class="text-2xl font-bold text-white mb-2">行业标准</h3>
+                      <p class="text-slate-300 text-sm mb-4">LBMA合格交割 & LPPM认证</p>
                       <div class="flex flex-col space-y-2 text-left">
                         <div class="flex items-center">
                           <svg class="w-5 h-5 text-color-amber mr-2" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                           </svg>
-                          <span class="text-white text-sm">符合 CSA 标准</span>
+                          <span class="text-white text-sm">999.9 纯金条</span>
                         </div>
                         <div class="flex items-center">
                           <svg class="w-5 h-5 text-color-amber mr-2" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                           </svg>
-                          <span class="text-white text-sm">ESA 批准安装</span>
+                          <span class="text-white text-sm">精炼过程审计</span>
                         </div>
                         <div class="flex items-center">
                           <svg class="w-5 h-5 text-color-amber mr-2" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                           </svg>
-                          <span class="text-white text-sm">行业领先的保修</span>
+                          <span class="text-white text-sm">分配存储</span>
                         </div>
                       </div>
                     </div>
@@ -319,10 +318,10 @@
 
         <div class="mt-12 text-center">
           <p class="text-lg text-slate-700 mb-6">
-            <span class="font-bold text-color-amber">相信专家。</span> 我们的领导团队在电气工程和电动汽车基础设施部署方面拥有数十年的综合经验。
+            <span class="font-bold text-color-amber">相信专家。</span> 我们的团队每年执行超过20亿美元的贵金属交易。
           </p>
           <a href="#contact" class="inline-block bg-color-amber hover:bg-brown-dark text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-            与我们的团队交流
+            与我们的团队沟通
           </a>
         </div>
       </div>
@@ -336,7 +335,7 @@
         <h2 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">我们的流程</h2>
         <div class="w-24 h-1 bg-color-amber mx-auto mb-4"></div>
         <p class="text-xl text-slate-600 max-w-2xl mx-auto">
-          从初步咨询到最终激活，我们管理每一个步骤
+          从询价到交付 – 无缝、透明、安全
         </p>
       </div>
 
@@ -347,39 +346,34 @@
             <div class="absolute top-12 left-0 right-0 h-1 bg-slate-200 z-0"></div>
             <div class="absolute top-12 left-0 h-1 bg-color-amber z-0 transition-all duration-1000" style="width: 100%;"></div>
 
-            <!-- Step 1 -->
             <div class="relative z-10 flex flex-col items-center text-center w-1/5">
               <div class="w-24 h-24 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4 shadow-lg">1</div>
               <h4 class="font-bold text-lg text-slate-900 mb-2">咨询</h4>
-              <p class="text-sm text-slate-600">初步会议了解您的需求</p>
+              <p class="text-sm text-slate-600">讨论金属类型、数量和交付时间</p>
             </div>
 
-            <!-- Step 2 -->
             <div class="relative z-10 flex flex-col items-center text-center w-1/5">
               <div class="w-24 h-24 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4 shadow-lg">2</div>
-              <h4 class="font-bold text-lg text-slate-900 mb-2">AI驱动的负载计算</h4>
-              <p class="text-sm text-slate-600">详细评估您的位置</p>
+              <h4 class="font-bold text-lg text-slate-900 mb-2">价格锁定</h4>
+              <p class="text-sm text-slate-600">实时报价，15分钟价格保证</p>
             </div>
 
-            <!-- Step 3 -->
             <div class="relative z-10 flex flex-col items-center text-center w-1/5">
               <div class="w-24 h-24 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4 shadow-lg">3</div>
-              <h4 class="font-bold text-lg text-slate-900 mb-2">安装</h4>
-              <p class="text-sm text-slate-600">专业设备设置</p>
+              <h4 class="font-bold text-lg text-slate-900 mb-2">安全付款</h4>
+              <p class="text-sm text-slate-600">银行电汇、加密货币或保险金属存款</p>
             </div>
 
-            <!-- Step 4 -->
             <div class="relative z-10 flex flex-col items-center text-center w-1/5">
               <div class="w-24 h-24 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4 shadow-lg">4</div>
-              <h4 class="font-bold text-lg text-slate-900 mb-2">ESA 检查</h4>
-              <p class="text-sm text-slate-600">代码合规性验证</p>
+              <h4 class="font-bold text-lg text-slate-900 mb-2">精炼/检测</h4>
+              <p class="text-sm text-slate-600">第三方验证和LBMA stamping</p>
             </div>
 
-            <!-- Step 5 -->
             <div class="relative z-10 flex flex-col items-center text-center w-1/5">
               <div class="w-24 h-24 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-2xl mb-4 shadow-lg">5</div>
-              <h4 class="font-bold text-lg text-slate-900 mb-2">激活</h4>
-              <p class="text-sm text-slate-600">您的充电站投入使用</p>
+              <h4 class="font-bold text-lg text-slate-900 mb-2">交付/存储</h4>
+              <p class="text-sm text-slate-600">保险运输或分配存储</p>
             </div>
           </div>
         </div>
@@ -388,42 +382,23 @@
         <div class="md:hidden space-y-8">
           <div class="flex items-start">
             <div class="w-16 h-16 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0 shadow-lg">1</div>
-            <div>
-              <h4 class="font-bold text-lg text-slate-900 mb-1">咨询</h4>
-              <p class="text-sm text-slate-600">初步会议了解您的需求</p>
-            </div>
+            <div><h4 class="font-bold text-lg text-slate-900 mb-1">咨询</h4><p class="text-sm text-slate-600">讨论金属类型、数量和交付时间</p></div>
           </div>
-
           <div class="flex items-start">
             <div class="w-16 h-16 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0 shadow-lg">2</div>
-            <div>
-              <h4 class="font-bold text-lg text-slate-900 mb-1">现场评估</h4>
-              <p class="text-sm text-slate-600">详细评估您的位置</p>
-            </div>
+            <div><h4 class="font-bold text-lg text-slate-900 mb-1">价格锁定</h4><p class="text-sm text-slate-600">实时报价，15分钟价格保证</p></div>
           </div>
-
           <div class="flex items-start">
             <div class="w-16 h-16 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0 shadow-lg">3</div>
-            <div>
-              <h4 class="font-bold text-lg text-slate-900 mb-1">安装</h4>
-              <p class="text-sm text-slate-600">专业设备设置</p>
-            </div>
+            <div><h4 class="font-bold text-lg text-slate-900 mb-1">安全付款</h4><p class="text-sm text-slate-600">银行电汇、加密货币或保险金属存款</p></div>
           </div>
-
           <div class="flex items-start">
             <div class="w-16 h-16 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0 shadow-lg">4</div>
-            <div>
-              <h4 class="font-bold text-lg text-slate-900 mb-1">ESA 检查</h4>
-              <p class="text-sm text-slate-600">代码合规性验证</p>
-            </div>
+            <div><h4 class="font-bold text-lg text-slate-900 mb-1">精炼/检测</h4><p class="text-sm text-slate-600">第三方验证和LBMA stamping</p></div>
           </div>
-
           <div class="flex items-start">
             <div class="w-16 h-16 bg-color-amber rounded-full flex items-center justify-center text-white font-bold text-xl mr-4 flex-shrink-0 shadow-lg">5</div>
-            <div>
-              <h4 class="font-bold text-lg text-slate-900 mb-1">激活</h4>
-              <p class="text-sm text-slate-600">您的充电站投入使用</p>
-            </div>
+            <div><h4 class="font-bold text-lg text-slate-900 mb-1">交付/存储</h4><p class="text-sm text-slate-600">保险运输或分配存储</p></div>
           </div>
         </div>
       </div>
@@ -437,58 +412,68 @@
         <h2 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">立即开始</h2>
         <div class="w-24 h-1 bg-color-amber mx-auto mb-4"></div>
         <p class="text-xl text-slate-600">
-          准备好开启您的电动未来了吗？请联系我们获取免费咨询。
+          准备好购买、出售或存储贵金属了吗？联系我们的交易台。
         </p>
       </div>
 
-     <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-  <form action="https://formsubmit.co/info@apexfoundation.ca" method="POST" enctype="multipart/form-data">
-    <input type="hidden" name="_subject" value="New Contact (Chinese) - Apex Foundation">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-    
-    <input type="text" name="_honey" style="display:none">
-    
-    <input type="hidden" name="_next" value="https://apexfoundation.ca/thankyou-cn.html">
-    
-    <div class="grid md:grid-cols-2 gap-6 mb-6">
-      <div>
-        <label for="name" class="block text-sm font-semibold text-slate-700 mb-2">全名 *</label>
-        <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="姓名" />
+      <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+        <form action="https://formsubmit.co/info@apexfoundation.ca" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="新咨询 - Apex Foundation (CN)">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_next" value="https://apexfoundation.ca/thankyou.html">
+
+          <div class="grid md:grid-cols-2 gap-6 mb-6">
+            <div>
+              <label for="name" class="block text-sm font-semibold text-slate-700 mb-2">姓名 *</label>
+              <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="张三" />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-semibold text-slate-700 mb-2">邮箱地址 *</label>
+              <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="zhang@example.com" />
+            </div>
+          </div>
+
+          <div class="mb-6">
+            <label for="company" class="block text-sm font-semibold text-slate-700 mb-2">公司 (可选)</label>
+            <input type="text" id="company" name="company" class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="您的公司名称" />
+          </div>
+
+          <div class="mb-6">
+            <label for="metal-type" class="block text-sm font-semibold text-slate-700 mb-2">感兴趣的金属 *</label>
+            <select id="metal-type" name="metal-type" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all bg-white">
+              <option value="">选择金属</option>
+              <option value="gold">黄金 (Au)</option>
+              <option value="silver">白银 (Ag)</option>
+              <option value="platinum">铂金 (Pt)</option>
+              <option value="palladium">钯金 (Pd)</option>
+              <option value="mixed">混合 / 其他</option>
+            </select>
+          </div>
+
+          <div class="mb-6">
+            <label for="inquiry-type" class="block text-sm font-semibold text-slate-700 mb-2">咨询类型 *</label>
+            <select id="inquiry-type" name="inquiry-type" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all bg-white">
+              <option value="">选择类型</option>
+              <option value="buy">我想购买</option>
+              <option value="sell">我想出售</option>
+              <option value="refine">精炼服务</option>
+              <option value="storage">存储/金库</option>
+              <option value="other">其他</option>
+            </select>
+          </div>
+
+          <div class="mb-8">
+            <label for="message" class="block text-sm font-semibold text-slate-700 mb-2">留言 / 数量 (大约重量)</label>
+            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all resize-none" placeholder="例如：'我对10盎司金条感兴趣，请提供价格和交付选项。'"></textarea>
+          </div>
+
+          <button type="submit" class="w-full bg-color-amber hover:bg-brown-dark text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+            提交咨询
+          </button>
+        </form>
       </div>
-
-      <div>
-        <label for="email" class="block text-sm font-semibold text-slate-700 mb-2">电子邮箱 *</label>
-        <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="email@example.com" />
-      </div>
-    </div>
-
-    <div class="mb-6">
-      <label for="company" class="block text-sm font-semibold text-slate-700 mb-2">公司名称 (选填)</label>
-      <input type="text" id="company" name="company" class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all" placeholder="您的公司名称" />
-    </div>
-
-    <div class="mb-6">
-      <label for="project-type" class="block text-sm font-semibold text-slate-700 mb-2">项目类型 *</label>
-      <select id="project-type" name="project-type" required class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all bg-white">
-        <option value="">请选择项目类型</option>
-        <option value="home">住宅 (Home)</option>
-        <option value="business">商业 (Business)</option>
-        <option value="supply-chain">供应链 (Supply Chain)</option>
-        <option value="energy-storage">储能 (Energy Storage)</option>
-      </select>
-    </div>
-
-    <div class="mb-8">
-      <label for="message" class="block text-sm font-semibold text-slate-700 mb-2">留言 (选填)</label>
-      <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-color-amber focus:border-transparent outline-none transition-all resize-none" placeholder="请描述您的项目需求..."></textarea>
-    </div>
-
-    <button type="submit" class="w-full bg-color-amber hover:bg-brown-dark text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-      提交申请
-    </button>
-  </form>
-</div>
     </div>
   </section>
 
@@ -500,64 +485,45 @@
           <img src="public/image.png" alt="Apex Foundation" class="h-10 w-auto" />
         </div>
         <div class="text-slate-400 text-sm">
-          © 2026 Apex Foundation. 版权所有.
+          © 2026 Apex Foundation 版权所有。 | 贵金属交易与精炼
         </div>
       </div>
     </div>
   </footer>
 
   <script>
-  // Mobile Menu Script (existing code)
-  const menuBtn = document.getElementById('mobile-menu-button');
-  const mobileMenu = document.getElementById('mobile-menu');
-  const navLinks = document.querySelectorAll('.mobile-nav-link');
-
-  menuBtn.addEventListener('click', () => {
-    const isHidden = mobileMenu.classList.toggle('hidden');
-    
-    if (!isHidden) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
-  });
-
-  navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      mobileMenu.classList.add('hidden');
-      document.body.style.overflow = '';
+    const menuBtn = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navLinks = document.querySelectorAll('.mobile-nav-link');
+    menuBtn.addEventListener('click', () => {
+      const isHidden = mobileMenu.classList.toggle('hidden');
+      document.body.style.overflow = isHidden ? '' : 'hidden';
     });
-  });
-
-  // ADD THESE NEW FUNCTIONS (missing from fr.html and cn.html):
-  
-  // Smooth scrolling for anchor links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      if (this.getAttribute('href') === '#') return;
-      
-      e.preventDefault();
-      const targetId = this.getAttribute('href');
-      const targetElement = document.querySelector(targetId);
-      
-      if (targetElement) {
-        window.scrollTo({
-          top: targetElement.offsetTop - 80,
-          behavior: 'smooth'
-        });
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        document.body.style.overflow = '';
+      });
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        if (this.getAttribute('href') === '#') return;
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          window.scrollTo({ top: targetElement.offsetTop - 80, behavior: 'smooth' });
+        }
+      });
+    });
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 100) {
+        navbar.classList.add('shadow-lg', 'bg-white/95', 'backdrop-blur-sm');
+      } else {
+        navbar.classList.remove('shadow-lg', 'bg-white/95', 'backdrop-blur-sm');
       }
     });
-  });
-
-  // Navbar scroll effect
-  window.addEventListener('scroll', () => {
-    const navbar = document.getElementById('navbar');
-    if (window.scrollY > 100) {
-      navbar.classList.add('shadow-lg', 'bg-white/95', 'backdrop-blur-sm');
-    } else {
-      navbar.classList.remove('shadow-lg', 'bg-white/95', 'backdrop-blur-sm');
-    }
-  });
-</script>
+  </script>
 </body>
 </html>
